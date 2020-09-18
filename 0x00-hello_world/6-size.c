@@ -1,7 +1,9 @@
-/*C program that prints the size of various data types*/
 #include <stdio.h>
-/*main function*/
-int main(voin)
+/**
+ *main - this is the main function for the program
+ *Return: Always zero
+ */
+int main(void)
 {
 printf("Size of a char: %c byte(s)\n", sizeof(char));
 printf("Size of a int: %d byte(s)\n", sizeof(int));
