@@ -1,8 +1,10 @@
+/*program to print a String*/
 #include <stdio.h>
-/*main function*/
+/*main function begins here*/
 int main(void)
 {
-/*printing my string*/
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+/*Function puts() used to print the String*/
+	puts("\""Programming is like building a multilingual puzzle");
+/*return function that returns zero value and terminates the program*/
+	return (0);
 }
