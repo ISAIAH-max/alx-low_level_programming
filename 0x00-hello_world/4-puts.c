@@ -1,4 +1,4 @@
-# !\ / bin / bash
+#!/bin/bash
 #include<stdio.h>
 main() {
 put("Programming is like building a multilingual puzzle\n.");
