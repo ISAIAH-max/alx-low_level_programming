@@ -1,6 +1,7 @@
-#!/bin/bash
 #include<stdio.h>
 main() {
-put("Programming is like building a multilingual puzzle\n.");
+char ch;
+ch = "Programming is like building a multilingual puzzle";
+puts(ch\n);
 return (0);
 }
