@@ -7,12 +7,12 @@
 
 int main(void)
 {
-int x;
+char x;
 for (x = 48; x <= 57; x++)
 {
 putchar(x);
 }
-int y;
+char y;
 for (y = 'a'; y <= 'f'; y++)
 {
 putchar(y);
