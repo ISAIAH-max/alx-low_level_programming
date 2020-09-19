@@ -7,17 +7,16 @@
 
 int main(void)
 {
-char x;
+int x;
 for (x = 48; x <= 57; x++)
 {
 putchar(x);
 }
-char y;
-for (y = 'a'; y <= 'f'; y++)
+int y;
+for (x = 97; x <= 102; x++)
 {
-putchar(y);
+putchar(x);
 }
 putchar('\n');
-
 return (0);
 }
