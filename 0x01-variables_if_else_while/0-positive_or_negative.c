@@ -18,15 +18,15 @@ l_digit = n % 10;
 if (l_digit > 0)
 
 {
-printf("The number %d is positive\n", l_digit);
+printf("The number %d is positive\n", n);
 }
 else if (l_digit == 0)
 {
-printf("The number %d is zero\n", l_digit);
+printf("The number %d is zero\n", n);
 }
 else if (l_digit < 0)
 {
-printf("The number %d is negative\n", l_digit);
+printf("The number %d is negative\n", n);
 }
 
 return (0);
