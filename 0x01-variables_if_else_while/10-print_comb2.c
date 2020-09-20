@@ -14,11 +14,11 @@ for (y = 48; y <= 57; y++)
 {
 putchar(x);
 putchar(y);
-putchar(' ');
-if (x <= 57 && y < 57)
-{
+
+
 putchar(',');
-}
+putchar(' ');
+
 }
 }
 putchar('\n');
