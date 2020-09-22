@@ -1,23 +1,16 @@
 #include "holberton.h"
 
 /**
- *main - Program that prints the alphabets in lowercase
  *print_alphabet - function that prints the alphabets in lowercase
- *Return: - Always Zero (success)
  */
 
-
-int main(void)
+void print_alphabet(void)
 {
-void print_alphabet(void);
+char c;
 
-int alpha;
-
-for (alpha = 97; alpha <= 122; alpha++)
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(alpha);
+_putchar(c);
 }
 _putchar('\n');
-
-return (0);
 }
