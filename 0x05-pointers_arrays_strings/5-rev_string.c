@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 int forward, reverse, temp;
 
-while(s[forward] != '\0')
+while (s[forward] != '\0')
 {
 forward++;
 }
