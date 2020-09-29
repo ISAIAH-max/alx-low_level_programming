@@ -9,10 +9,10 @@
 void puts_half(char *str)
 {
 int n, m;
-for (m = 0; str[m]; m++)
+for (m = 0; str[m] != '\0'; m++)
 {
 }
-for (n = m / 2; str[n]; n++)
+for (n = m / 2; str[n] != '\0'; n++)
 {
 _putchar(str[n]);
 }
