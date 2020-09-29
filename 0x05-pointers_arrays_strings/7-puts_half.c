@@ -14,6 +14,7 @@ for (m = 0; str[m] != '\0'; m++)
 }
 for (n = m / 2; str[n] != '\0'; n++)
 {
+n = (m + 1) / 2;
 _putchar(str[n]);
 }
 _putchar('\n');
