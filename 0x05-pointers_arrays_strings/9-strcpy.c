@@ -6,18 +6,18 @@
  * the buffer pointed to by dest
  * @dest: String copied
  * @src:  String to be copied
- * Return: dest
+ * Return: Returns pointer to destination
  */
 
 char *_strcpy(char *dest, char *src)
 {
 int x = 0;
 
-while (src[x])
+while (src[x] != '\0')
 {
 dest[x] = src[x];
 x++;
 }
-
+dest[x] = src[x];
 return (dest);
 }
