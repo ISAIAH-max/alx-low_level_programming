@@ -16,10 +16,8 @@ for (x = 0; src[x] != '\0' && x < n; x++)
 {
 dest[x] = src[x];
 }
+for (; x < n; x++)
+dest[x] = '\0';
 
-for (x = 0; x < n; x++)
-{
-dest[x] = src[x];
-}
 return (dest);
 }
