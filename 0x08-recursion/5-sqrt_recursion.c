@@ -23,7 +23,7 @@ return (s_qrt(n, r));
 
 
 /**
- * sqrt - A function that calculates for a squareroot
+ * s_qrt - A function that calculates for a squareroot
  *of a given number
  * @x: Number to determine a square root
  * @r: Root tested
