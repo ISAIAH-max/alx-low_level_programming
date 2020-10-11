@@ -1,1 +1,1 @@
-C project for creating Static libraries
+C programming language - Static libraries
