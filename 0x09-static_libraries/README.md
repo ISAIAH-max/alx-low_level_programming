@@ -1,2 +1,1 @@
-#!/bin/bash
-C -Static Libraries project
+C project for creating Static libraries
