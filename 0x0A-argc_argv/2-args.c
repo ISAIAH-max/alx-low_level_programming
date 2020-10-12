@@ -2,7 +2,7 @@
 #include "holberton.h"
 
 /**
- * main - Entry point. Prints all arguments received.
+ * main - A function that prints all arguments it receives.
  * @argc: NUmber of arguments
  * @argv: Array pointer to string
  * Return: Returns Always (0), Success
