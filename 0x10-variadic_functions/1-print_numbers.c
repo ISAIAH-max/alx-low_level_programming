@@ -20,10 +20,9 @@ for (x = 0; x < n; x++)
 {
 nums = va_arg(numbers, int);
 printf("%d", nums);
-if (x < n - 1 && *separator != '\0')
-{
+if (x < n - 1 && *separator)
 printf(", ");
-}
+
 }
 printf("\n");
 va_end(numbers);
