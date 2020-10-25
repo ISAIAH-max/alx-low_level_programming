@@ -56,9 +56,12 @@ void print_string(va_list arg)
 {
 char *s;
 s = va_arg(arg, char *);
-printf("%s", s);
 if (s == NULL)
+{
 printf("(nil)");
+return;
+}
+printf("%s", s);
 }
 
 
