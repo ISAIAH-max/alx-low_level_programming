@@ -19,8 +19,10 @@ int main(void)
 				putchar(y + '0');
 
 				if ((x * 10 + y) != 89)
+				{
 					putchar(',');
-				putchar(' ');
+					putchar(' ');
+				}
 			}
 		}
 	}
