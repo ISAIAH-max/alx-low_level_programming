@@ -26,7 +26,7 @@ putchar(x + '0');
 putchar(' ');
 putchar(y + '0');
 putchar(z + '0');
-if (!((y == 9) && (z == 9)))
+if ((y != 9) || (z != 9))
 {
 putchar(',');
 putchar(' ');
