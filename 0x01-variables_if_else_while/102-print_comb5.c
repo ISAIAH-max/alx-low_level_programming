@@ -26,11 +26,10 @@ putchar(x + '0');
 putchar(' ');
 putchar(y + '0');
 putchar(z + '0');
-if ((y != 9) || (z != 9))
-{
+if (((i * 10) + x) == 98 && ((y * 10) + z) == 99)
+	continue;
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
