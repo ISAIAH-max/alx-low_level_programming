@@ -4,7 +4,7 @@
 /**
  *dlistint_len-function that returns the number of elements
  *in a linked dlistint_t list
- *@h:Dlink list header
+ *@h:A pointer to Dlink list
  *
  *Return:the number of elements 
  */
