@@ -1,0 +1,5 @@
+CC=gcc
+CFLAGS=-l.
+
+holberton: main.c holberton.c
+	$(CC) main.c holberton.c -o holberton
