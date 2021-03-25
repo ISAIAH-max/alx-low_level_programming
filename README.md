@@ -1,2 +1,1 @@
-#!/bin/bash
-C programming language projects
+# C programming language projects
