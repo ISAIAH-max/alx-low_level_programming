@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *print_diagonal - function that draws a diagonal ine on the terminal
