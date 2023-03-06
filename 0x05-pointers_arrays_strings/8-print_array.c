@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include  "main.h"
 
 /**
  *print_array - A function that prints n elements of an array of integers
