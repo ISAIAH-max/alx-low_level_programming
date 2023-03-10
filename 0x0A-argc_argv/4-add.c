@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Afunction that dds positive numbers
