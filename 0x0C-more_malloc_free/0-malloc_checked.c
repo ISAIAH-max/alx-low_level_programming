@@ -11,9 +11,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-void *mem = malloc(b);
+void *n;
 
-if (mem == '\0')
+n = malloc(b);
+
+if (n == NULL)
 exit(98);
-return (mem);
+return (n);
 }
