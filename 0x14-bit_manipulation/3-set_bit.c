@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *set_bit-A function that sets the value of a bit to 1 at a given index
